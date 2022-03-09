@@ -26,9 +26,18 @@ class _HomeScreenState extends State<HomeScreen> {
                     '125 items(s)',
                     style: AppStyles.proximaNovaBold(fontSize: 12),
                   ),
-                  const SizedBox(),
+                  XMargin(x: screenWidth(context, percent: 0.15)),
                 ],
-              )
+              ),
+              Row(
+                children: const [
+                  // Icon(
+                  //   FlatIcons.wifi,
+                  //   color: Colors.black,
+                  //   size: 20,
+                  // )
+                ],
+              ),
             ],
           ),
         ),
